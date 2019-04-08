@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class Containner {
 
-    private Map<String, Object> map = new ConcurrentHashMap<String, Object>();
+    private Map<String, Object> map = new ConcurrentHashMap<>();
 
     public Object getBean(String beanId) {
         return map.get(beanId);

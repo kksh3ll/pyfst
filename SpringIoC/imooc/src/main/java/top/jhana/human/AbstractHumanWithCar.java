@@ -10,5 +10,6 @@ public abstract class AbstractHumanWithCar implements Human {
         this.car = car;
     }
 
+    @Override
     public abstract void gohome();
 }
