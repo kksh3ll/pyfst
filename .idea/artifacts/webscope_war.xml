@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webscope:war">
+    <output-path>$PROJECT_DIR$/SpringIoC/webscope/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webscope</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webscope-0.2.war">
+      <element id="artifact" artifact-name="webscope:war exploded" />
+    </root>
+  </artifact>
+</component>

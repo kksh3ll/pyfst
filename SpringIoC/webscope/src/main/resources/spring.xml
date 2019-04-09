@@ -4,5 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean class="top.jhana.RequestController" scope="request"/>
+    <bean class="top.jhana.SessionController" scope="session"/>
+    <bean class="top.jhana.ApplicationController"/>
 
 </beans>
