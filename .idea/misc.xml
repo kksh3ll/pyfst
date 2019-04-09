@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/SpringIoC/imooc/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/webscope/pom.xml" />
       </list>
     </option>
   </component>

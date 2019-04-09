@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" filepath="$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyfst.iml" filepath="$PROJECT_DIR$/pyfst.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" filepath="$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" filepath="$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" />
     </modules>
   </component>
 </project>
