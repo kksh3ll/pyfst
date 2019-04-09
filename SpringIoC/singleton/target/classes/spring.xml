@@ -4,11 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="top.jhana.beans.Bean1" id="bean1">
-            <property name="bean2" ref="bean2"/>
+    <bean class="top.jhana.beans.Bean1" id="bean1" scope="singleton">
+        <lookup-method name="createBean2" bean="bean2"/>
+            <!--<property name="bean2" ref="bean2"/>-->
     </bean>
 
-    <bean class="top.jhana.beans.Bean2" id="bean2" scope="singleton"/>
+    <bean class="top.jhana.beans.Bean2" id="bean2" scope="prototype"/>
 
 
 </beans>

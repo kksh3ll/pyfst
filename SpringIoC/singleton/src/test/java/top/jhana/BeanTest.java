@@ -11,8 +11,12 @@ public class BeanTest {
     public void test() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
 
-        Bean2 bean2_1 = ac.getBean(bean2, Bean2.class);
+        Bean2 bean2_1 = ac.getBean("bean2", Bean2.class);
 
-        Bean2 bean2_2 = ac.getBean(bean2, Bean2.class);
+        Bean2 bean2_2 = ac.getBean("bean2", Bean2.class);
+
+        System.out.println("bean2_1 = " + bean2_1);
+
+        System.out.println("bean2_2 = " + bean2_2);
     }
 }
