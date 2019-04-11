@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" filepath="$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" filepath="$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" filepath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyfst.iml" filepath="$PROJECT_DIR$/pyfst.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" filepath="$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" />

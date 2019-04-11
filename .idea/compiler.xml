@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="imooc" />
+        <module name="init_destroy" />
         <module name="lazyinit" />
         <module name="singleton" />
         <module name="webscope" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="imooc" target="1.5" />
+      <module name="init_destroy" target="1.5" />
       <module name="lazyinit" target="1.5" />
       <module name="singleton" target="1.5" />
       <module name="singleton (1)" target="1.5" />
