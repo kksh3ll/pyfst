@@ -4,7 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="bean2" class="top.jhana.Bean2"/>
+    <!-- bean的初始化和销毁的逻辑处理
+         1. 在bean标签中加init-method和destroy-method参数
+         2. 在beans标签中加default-init-method和default-destroy-method方法-->
+    <bean id="bean2" class="top.jhana.Bean2" init-method="initMethod" destroy-method="destroyMethod"/>
 
 
 </beans>
