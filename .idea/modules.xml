@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringIoC/configuration/configuration.iml" filepath="$PROJECT_DIR$/SpringIoC/configuration/configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" filepath="$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" filepath="$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" filepath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" />

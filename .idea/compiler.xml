@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="configuration" />
         <module name="imooc" />
         <module name="init_destroy" />
         <module name="lazyinit" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="configuration" target="1.5" />
       <module name="imooc" target="1.5" />
       <module name="init_destroy" target="1.5" />
       <module name="lazyinit" target="1.5" />

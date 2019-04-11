@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/SpringIoC/webscope/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/init_destroy/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/configuration/pom.xml" />
       </list>
     </option>
   </component>
