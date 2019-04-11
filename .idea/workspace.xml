@@ -7,13 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/top/jhana/LazyInitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pyfst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
@@ -57,24 +56,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/top/jhana/LazyInitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="208">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding>
-                <element signature="e#65#66#0" expanded="true" />
-                <element signature="e#101#102#0" expanded="true" />
-              </folding>
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -115,10 +125,12 @@
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java" />
         <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/top/jhana/TestLazyInit.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/resources/spring.xml" />
       </list>
     </option>
   </component>
@@ -138,7 +150,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lazyinit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lazyinit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -188,112 +210,21 @@
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
               <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
               <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,10 +235,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554986288940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554989491743" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25172412" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -321,7 +252,11 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="top.jhana" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/resources" />
       <recent name="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana" />
       <recent name="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources" />
       <recent name="$PROJECT_DIR$/SpringIoC/webscope" />
@@ -340,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
+  <component name="RunManager" selected="JUnit.LazyInitTest.test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -370,8 +305,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="imooc" />
+    <configuration name="LazyInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lazyinit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.jhana.*" />
@@ -379,7 +314,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.jhana" />
-      <option name="MAIN_CLASS_NAME" value="top.jhana.SpringIoCTest" />
+      <option name="MAIN_CLASS_NAME" value="top.jhana.LazyInitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyInitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lazyinit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.jhana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.jhana" />
+      <option name="MAIN_CLASS_NAME" value="top.jhana.LazyInitTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -394,20 +345,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="top.jhana in singleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singleton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.jhana.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.jhana" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="lazyinit [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/SpringIoC/lazyinit" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -501,15 +462,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BeanTest.test" />
-      <item itemvalue="JUnit.SpringIoCTest.test" />
-      <item itemvalue="JUnit.top.jhana in singleton" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="JUnit.LazyInitTest.test" />
+      <item itemvalue="JUnit.LazyInitTest" />
+      <item itemvalue="Maven.lazyinit [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LazyInitTest.test" />
+        <item itemvalue="Maven.lazyinit [test]" />
+        <item itemvalue="JUnit.LazyInitTest" />
         <item itemvalue="JUnit.BeanTest.test" />
-        <item itemvalue="JUnit.top.jhana in singleton" />
-        <item itemvalue="JUnit.SpringIoCTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +491,7 @@
       <updated>1554518023008</updated>
       <workItem from="1554518024668" duration="15304000" />
       <workItem from="1554817640080" duration="1474000" />
-      <workItem from="1554819244264" duration="5275000" />
+      <workItem from="1554819244264" duration="7302000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -541,24 +504,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringIoCTest_test - 2019.04.06 at 12h 51m 36s.xml">
-      <configuration name="SpringIoCTest.test" configurationId="JUnit" />
+    <history-entry file="TestLazyInit - 2019.04.11 at 21h 12m 39s.xml">
+      <configuration name="TestLazyInit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringIoCTest_test - 2019.04.06 at 12h 53m 06s.xml">
-      <configuration name="SpringIoCTest.test" configurationId="JUnit" />
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 15m 39s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringIoCTest_test - 2019.04.06 at 12h 58m 03s.xml">
-      <configuration name="SpringIoCTest.test" configurationId="JUnit" />
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 16m 57s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanTest_test - 2019.04.09 at 20h 30m 52s.xml">
-      <configuration name="BeanTest.test" configurationId="JUnit" />
+    <history-entry file="LazyInitTest - 2019.04.11 at 21h 17m 29s.xml">
+      <configuration name="LazyInitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanTest_test - 2019.04.09 at 20h 58m 48s.xml">
-      <configuration name="BeanTest.test" configurationId="JUnit" />
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 20m 18s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 20m 49s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LazyInitTest - 2019.04.11 at 21h 23m 52s.xml">
+      <configuration name="LazyInitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 27m 09s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 29m 58s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 31m 14s.xml">
+      <configuration name="LazyInitTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22053000" />
+    <option name="totallyTimeSpent" value="24080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +551,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +562,7 @@
       <window_info anchor="bottom" id="Application Servers" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,13 +699,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema-instance.xsd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -746,13 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -812,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -833,24 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#65#66#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -867,10 +803,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/target/test-classes/top/jhana/BeanTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/target/classes/spring.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/top/jhana/LazyInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -880,10 +880,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>webscope:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.25172412" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -927,7 +929,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webscope</last-edited>
+          <last-edited>singleton</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
