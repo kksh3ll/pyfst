@@ -7,21 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webscope_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webscope_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/RequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/SessionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/webscope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/webscope/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pyfst.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/singleton/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/webscope/target/" />
+    <ignored path="$PROJECT_DIR$/SpringIoC/lazyinit/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +43,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="60" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/RequestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="160">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/SessionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="32">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#65#66#0" expanded="true" />
+                <element signature="e#101#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +105,6 @@
         <option value="$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/car/Audio.java" />
         <option value="$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/car/Buick.java" />
         <option value="$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/AbstractHumanWithCar.java" />
-        <option value="$PROJECT_DIR$/SpringIoC/singleton/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/src/main/java/top/jhana/beans/Bean1.java" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/webapp/WEB-INF/web.xml" />
@@ -127,6 +113,12 @@
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/RequestController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java" />
       </list>
     </option>
   </component>
@@ -182,50 +174,20 @@
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -233,7 +195,7 @@
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -242,51 +204,96 @@
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jhana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="lazyinit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="webscope" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +304,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554821304708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554986288940" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -315,6 +322,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana" />
       <recent name="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources" />
       <recent name="$PROJECT_DIR$/SpringIoC/webscope" />
       <recent name="$PROJECT_DIR$/SpringIoC/singleton" />
@@ -520,8 +528,16 @@
       <updated>1554518023008</updated>
       <workItem from="1554518024668" duration="15304000" />
       <workItem from="1554817640080" duration="1474000" />
-      <workItem from="1554819244264" duration="1811000" />
+      <workItem from="1554819244264" duration="5275000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore file">
+      <created>1554822988482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554822988483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -542,7 +558,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18589000" />
+    <option name="totallyTimeSpent" value="22053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +573,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3241491" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -595,6 +611,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/car.java" />
@@ -715,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/main/java/top/jhana/beans/Bean2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -749,24 +759,10 @@
     <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/webscope.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -806,6 +802,75 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/main/java/top/jhana/Bean1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/TestLazyInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
