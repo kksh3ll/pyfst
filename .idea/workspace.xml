@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="64">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="192">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,7 +74,10 @@
         <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,9 +131,9 @@
         <option value="$PROJECT_DIR$/SpringIoC/init_destroy/src/test/java/DestroyTest.java" />
         <option value="$PROJECT_DIR$/SpringIoC/init_destroy/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/configuration/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java" />
         <option value="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean2.java" />
         <option value="$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java" />
       </list>
     </option>
   </component>
@@ -230,16 +231,6 @@
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jhana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555084532172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555168458370" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -331,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DestroyTest.test">
+  <component name="RunManager" selected="JUnit.ConfigurationTest.test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -340,6 +331,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="configuration" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConfigurationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,22 +363,6 @@
       <option name="MAIN_CLASS_NAME" value="InitTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LazyInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lazyinit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.jhana.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.jhana" />
-      <option name="MAIN_CLASS_NAME" value="top.jhana.LazyInitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -524,18 +510,18 @@
     <list>
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="JUnit.LazyInitTest.test" />
-      <item itemvalue="JUnit.LazyInitTest" />
       <item itemvalue="Maven.lazyinit [test]" />
       <item itemvalue="JUnit.InitTest.test" />
       <item itemvalue="JUnit.DestroyTest.test" />
+      <item itemvalue="JUnit.ConfigurationTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigurationTest.test" />
         <item itemvalue="JUnit.DestroyTest.test" />
         <item itemvalue="JUnit.InitTest.test" />
         <item itemvalue="JUnit.LazyInitTest.test" />
         <item itemvalue="Maven.lazyinit [test]" />
-        <item itemvalue="JUnit.LazyInitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -554,7 +540,7 @@
       <updated>1554518023008</updated>
       <workItem from="1554518024668" duration="15304000" />
       <workItem from="1554817640080" duration="1474000" />
-      <workItem from="1554819244264" duration="11297000" />
+      <workItem from="1554819244264" duration="12696000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -567,15 +553,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 20m 18s.xml">
-      <configuration name="LazyInitTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 20m 49s.xml">
-      <configuration name="LazyInitTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LazyInitTest - 2019.04.11 at 21h 23m 52s.xml">
-      <configuration name="LazyInitTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LazyInitTest_test - 2019.04.11 at 21h 27m 09s.xml">
       <configuration name="LazyInitTest.test" configurationId="JUnit" />
     </history-entry>
@@ -597,9 +574,18 @@
     <history-entry file="DestroyTest_test - 2019.04.12 at 00h 13m 19s.xml">
       <configuration name="DestroyTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConfigurationTest_test - 2019.04.13 at 00h 15m 38s.xml">
+      <configuration name="ConfigurationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_test - 2019.04.13 at 00h 16m 51s.xml">
+      <configuration name="ConfigurationTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConfigurationTest_test - 2019.04.13 at 23h 09m 15s.xml">
+      <configuration name="ConfigurationTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28075000" />
+    <option name="totallyTimeSpent" value="29474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +600,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -625,7 +611,7 @@
       <window_info anchor="bottom" id="Application Servers" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -986,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1000,24 +979,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/MyConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/main/java/top/jhana/Bean2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="64">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/configuration/src/test/java/ConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="192">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
