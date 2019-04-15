@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="configuration" />
+        <module name="demo" />
         <module name="imooc" />
         <module name="init_destroy" />
         <module name="lazyinit" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="configuration" target="1.5" />
+      <module name="demo" target="1.8" />
       <module name="imooc" target="1.5" />
       <module name="init_destroy" target="1.5" />
       <module name="lazyinit" target="1.5" />
@@ -23,5 +25,10 @@
       <module name="singleton (1)" target="1.5" />
       <module name="webscope" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+    </option>
   </component>
 </project>
