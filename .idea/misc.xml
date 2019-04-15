@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/SpringIoC/lazyinit/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/init_destroy/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/demo/pom.xml" />
       </list>
     </option>
   </component>
