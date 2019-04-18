@@ -2,10 +2,10 @@ package top.jhana.demo;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.rest.webmvc.ResourceNotFoundException;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.*;
 
 @RestController
@@ -33,6 +33,31 @@ public class TvServiceController {
         list.add(createPoi());
         return list;
     }
+
+    @GetMapping("/{id}")
+    public TvServiceDto getOne(@PathVariable int id) {
+        if (log.isTraceEnabled()) {
+            log.trace("getOne()被调用了！id=" + id);
+        }
+        if (id == 101) {
+            return createWestWorld();
+        } else if (id == 102) {
+            return createPoi();
+        } else {
+            throw new ResourceNotFoundException("资源找不到！");
+        }
+    }
+
+    @PostMapping
+    public TvServiceDto insertOne(@Valid @RequestBody TvServiceDto tvServiceDto) {
+        if (log.isTraceEnabled()) {
+            log.trace("insertOne()被调用了！");
+        }
+
+        tvServiceDto.setId(999);
+        return tvServiceDto;
+    }
+
 
     public TvServiceDto createWestWorld() {
         Calendar cal = Calendar.getInstance();
