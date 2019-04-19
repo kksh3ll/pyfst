@@ -8,22 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/Containner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/car/Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/car/Buick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/car/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/human/AbstractHumanWithCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/human/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/human/Lisi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/classes/top/jhana/human/Zhansan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/target/test-classes/top/jhana/SpringIoCTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/singleton/target/classes/top/jhana/beans/Bean1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/singleton/target/classes/top/jhana/beans/Bean1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/singleton/target/classes/top/jhana/beans/Bean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/singleton/target/classes/top/jhana/beans/Bean2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/singleton/target/test-classes/top/jhana/BeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/singleton/target/test-classes/top/jhana/BeanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/webscope/target/webscope-0.2.war" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/webscope/target/webscope-0.2.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
@@ -58,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="256">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,7 +276,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555599261767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555689366510" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -556,7 +542,7 @@
       <updated>1554518023008</updated>
       <workItem from="1554518024668" duration="15304000" />
       <workItem from="1554817640080" duration="1474000" />
-      <workItem from="1554819244264" duration="24602000" />
+      <workItem from="1554819244264" duration="25763000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -601,7 +587,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41380000" />
+    <option name="totallyTimeSpent" value="42541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +602,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22123177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22123177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -665,13 +651,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/car/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/Zhansan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1084,10 +1063,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/test/java/top/jhana/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="256">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

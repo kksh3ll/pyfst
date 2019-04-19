@@ -14,13 +14,13 @@ public class TvServiceController {
 
     private static final Log log = LogFactory.getLog(TvServiceController.class);
 
-//    @GetMapping
-//    public Map sayHello() {
-//
-//        Map<String, String> map = new HashMap<>();
-//        map.put("message", "hello world");
-//        return map;
-//    }
+    @GetMapping("/hello")
+    public Map sayHello() {
+
+        Map<String, String> map = new HashMap<>();
+        map.put("message", "hello world");
+        return map;
+    }
 
     @GetMapping
     public List<TvServiceDto> getAll() {
