@@ -3,9 +3,16 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>thymeleaf in action</title>
 </head>
 <body>
-
+<div th:replace="~{fragments/header::header}"></div>
+<h3 th:text="${userModel.title}">subway</h3>
+<p><strong>ID:</strong><span th:text="${userModel.user.id}"></span></p>
+<p><strong>name:</strong><span th:text="${userModel.user.name}"></span></p>
+<p><strong>email:</strong><span th:text="${userModel.user.email}"></span></p>
+<a th:href="@{'/users/delete/' + ${userModel.user.id}}">删除</a>
+<a th:href="@{'/users/modify/' + ${userModel.user.id}}">修改</a>
+<div th:replace="~{fragments/footer::footer}"></div>
 </body>
 </html>
