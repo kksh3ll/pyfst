@@ -8,8 +8,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/thymeleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
@@ -19,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/SpringIoC/init_destroy/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/configuration/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/demo/target/" />
+    <ignored path="$PROJECT_DIR$/SpringIoC/thymeleaf/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +62,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="320">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,37 +106,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceDto.java">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#310#322#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/demo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="208">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="62" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -94,6 +172,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -145,6 +224,15 @@
         <option value="$PROJECT_DIR$/SpringIoC/demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/domain/User.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/view.html" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/list.html" />
+        <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -200,68 +288,90 @@
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jhana" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyfst" type="462c0819:PsiDirectoryNode" />
               <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyfst" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringIoC" type="462c0819:PsiDirectoryNode" />
+              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,13 +380,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555689366510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555755377089" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -542,7 +653,7 @@
       <updated>1554518023008</updated>
       <workItem from="1554518024668" duration="15304000" />
       <workItem from="1554817640080" duration="1474000" />
-      <workItem from="1554819244264" duration="25763000" />
+      <workItem from="1554819244264" duration="30133000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -587,7 +698,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42541000" />
+    <option name="totallyTimeSpent" value="46911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,7 +713,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22123177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22447325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,87 +762,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/Zhansan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/AbstractHumanWithCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/main/java/top/jhana/human/Lisi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/src/test/java/top/jhana/SpringIoCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/imooc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/XMLSchema-instance.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="675" column="4" selection-start-line="675" selection-start-column="4" selection-end-line="675" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/main/java/top/jhana/beans/Bean2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/singleton/src/main/java/top/jhana/beans/Bean1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/webscope/webscope.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1077,6 +1107,100 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/util/SpringContentTypeUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#322#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="62" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/users/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -12,6 +12,7 @@
         <module name="init_destroy" />
         <module name="lazyinit" />
         <module name="singleton" />
+        <module name="thymeleaf" />
         <module name="webscope" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="lazyinit" target="1.5" />
       <module name="singleton" target="1.5" />
       <module name="singleton (1)" target="1.5" />
+      <module name="thymeleaf" target="1.5" />
       <module name="webscope" target="1.5" />
     </bytecodeTargetLevel>
   </component>
