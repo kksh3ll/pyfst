@@ -22,6 +22,9 @@ gen/
 # Log files
 *.log
 
+# system files
+.DS_Store
+
 # generated files
 **/target/
 
