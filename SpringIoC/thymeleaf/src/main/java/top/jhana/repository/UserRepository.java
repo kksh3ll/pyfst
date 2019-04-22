@@ -1,17 +1,8 @@
 package top.jhana.repository;
 
 
+import org.springframework.data.repository.CrudRepository;
 import top.jhana.domain.User;
 
-import java.util.List;
-
-public interface UserRepository {
-
-    User saveOrUpdateUser(User user);
-
-    void deleteUser(Long id);
-
-    User getUserById(Long id);
-
-    List<User> userList();
+public interface UserRepository extends CrudRepository<User, Long> {
 }
