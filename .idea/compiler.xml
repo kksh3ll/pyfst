@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configuration" />
         <module name="demo" />
+        <module name="elasticsearch" />
         <module name="imooc" />
         <module name="init_destroy" />
         <module name="lazyinit" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel target="8">
       <module name="configuration" target="1.5" />
       <module name="demo" target="1.8" />
+      <module name="elasticsearch" target="1.5" />
       <module name="imooc" target="1.5" />
       <module name="init_destroy" target="1.5" />
       <module name="lazyinit" target="1.5" />

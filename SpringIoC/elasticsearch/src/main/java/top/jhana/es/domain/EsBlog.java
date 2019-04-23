@@ -15,8 +15,7 @@ public class EsBlog implements Serializable {
     protected EsBlog() {
     }
 
-    public EsBlog(String id, String title, String summary, String content) {
-        this.id = id;
+    public EsBlog(String title, String summary, String content) {
         this.title = title;
         this.summary = summary;
         this.content = content;

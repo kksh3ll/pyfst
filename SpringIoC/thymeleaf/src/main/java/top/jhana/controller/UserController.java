@@ -37,7 +37,8 @@ public class UserController {
     @GetMapping("{id}")
     public ModelAndView view(@PathVariable("id") Long id, Model model) {
 
-        Optional<User> user = userRepository.findById(id);
+        Optional<User> userOpt = userRepository.findById(id);
+        User user = userOpt.get();
         model.addAttribute("user", user);
         model.addAttribute("title", "查看用户");
         return new ModelAndView("users/view", "userModel", model);
@@ -85,7 +86,8 @@ public class UserController {
      */
     @GetMapping("/modify/{id}")
     public ModelAndView modify(@PathVariable("id") Long id, Model model) {
-        Optional<User> user = userRepository.findById(id);
+        Optional<User> userOpt = userRepository.findById(id);
+        User user = userOpt.get();
         model.addAttribute("user", user);
         model.addAttribute("title", "修改用户");
         return new ModelAndView("/users/form", "userModel", model);
