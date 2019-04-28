@@ -26,6 +26,8 @@
       <module name="lazyinit" target="1.8" />
       <module name="singleton" target="1.8" />
       <module name="thymeleaf" target="1.8" />
+      <module name="top.jhana.weather.main" target="1.8" />
+      <module name="top.jhana.weather.test" target="1.8" />
       <module name="webscope" target="1.8" />
     </bytecodeTargetLevel>
   </component>

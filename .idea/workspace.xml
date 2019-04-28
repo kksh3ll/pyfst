@@ -8,20 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/java/top/jhana/es/controller/BlogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/configuration/configuration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/configuration/configuration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/java/top/jhana/es/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/java/top/jhana/es/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/imooc/imooc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/init_destroy/init_destroy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/java/top/jhana/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/thymeleaf/thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/thymeleaf/thymeleaf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/imooc/target/" />
@@ -33,6 +22,9 @@
     <ignored path="$PROJECT_DIR$/SpringIoC/demo/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/thymeleaf/target/" />
     <ignored path="$PROJECT_DIR$/SpringIoC/elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/SpringIoC/weather/.gradle/" />
+    <ignored path="$PROJECT_DIR$/SpringIoC/weather/build/" />
+    <ignored path="$PROJECT_DIR$/SpringIoC/weather/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +61,65 @@
     </expand>
     <select />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/SpringIoC/weather">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/SessionController.java" />
-        <option value="$PROJECT_DIR$/SpringIoC/webscope/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/RequestController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java" />
@@ -148,6 +189,9 @@
         <option value="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/java/top/jhana/es/Application.java" />
         <option value="$PROJECT_DIR$/SpringIoC/elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/weather/build.gradle" />
       </list>
     </option>
   </component>
@@ -182,6 +226,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -190,57 +235,61 @@
           <expand>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jhana" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thymeleaf" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +308,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556236210988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556432291898" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining">
+  <component name="RunManager" selected="Spring Boot.WeatherApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -370,6 +419,13 @@
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.jhana.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="top.jhana.weather.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.jhana.weather.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -470,6 +526,7 @@
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="Spring Boot.WeatherApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -498,7 +555,7 @@
       <workItem from="1555944614755" duration="4270000" />
       <workItem from="1555949934172" duration="8735000" />
       <workItem from="1556027323932" duration="13028000" />
-      <workItem from="1556123720451" duration="6292000" />
+      <workItem from="1556123720451" duration="9374000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -543,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100034000" />
+    <option name="totallyTimeSpent" value="103116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,9 +623,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837926" weight="0.3591241" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837926" visible="true" weight="0.3591241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,6 +641,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329927" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.329927" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.329927" />
+      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959481" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -608,48 +667,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/lazyinit/src/test/java/top/jhana/LazyInitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-rest-webmvc/3.1.6.RELEASE/spring-data-rest-webmvc-3.1.6.RELEASE.jar!/org/springframework/data/rest/webmvc/ResourceNotFoundException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/test/java/top/jhana/demo/DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -970,6 +987,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>

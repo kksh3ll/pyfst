@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" filepath="$PROJECT_DIR$/SpringIoC/lazyinit/lazyinit.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" filepath="$PROJECT_DIR$/SpringIoC/singleton/singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/SpringIoC/thymeleaf/thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.jhana.weather.iml" filepath="$PROJECT_DIR$/.idea/modules/top.jhana.weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.jhana.weather.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.jhana.weather.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.jhana.weather.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.jhana.weather.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" filepath="$PROJECT_DIR$/SpringIoC/webscope/webscope.iml" />
     </modules>
   </component>
