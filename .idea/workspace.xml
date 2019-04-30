@@ -8,8 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44261503-e2b7-4462-80ed-f84311532d1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,19 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
@@ -102,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -113,10 +102,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/controller/HelloControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="160">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/RequestController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/webscope/src/main/java/top/jhana/ApplicationController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/singleton/src/test/java/top/jhana/BeanTest.java" />
@@ -189,9 +189,10 @@
         <option value="$PROJECT_DIR$/SpringIoC/elasticsearch/src/main/java/top/jhana/es/Application.java" />
         <option value="$PROJECT_DIR$/SpringIoC/elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/SpringIoC/thymeleaf/src/main/resources/templates/fragments/header.html" />
-        <option value="$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/SpringIoC/weather/build.gradle" />
+        <option value="$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/controller/HelloControllerTest.java" />
       </list>
     </option>
   </component>
@@ -268,6 +269,15 @@
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyfst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +318,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556432291898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556436202448" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -377,6 +387,23 @@
       <option name="PACKAGE_NAME" value="top.jhana.es.repository" />
       <option name="MAIN_CLASS_NAME" value="top.jhana.es.repository.EsBlogRepositoryTest" />
       <option name="METHOD_NAME" value="testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloControllerTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="top.jhana.weather.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.jhana.weather.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.jhana.weather.controller" />
+      <option name="MAIN_CLASS_NAME" value="top.jhana.weather.controller.HelloControllerTest" />
+      <option name="METHOD_NAME" value="testHello" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -527,9 +554,11 @@
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="Spring Boot.WeatherApplication" />
+      <item itemvalue="JUnit.HelloControllerTest.testHello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloControllerTest.testHello" />
         <item itemvalue="JUnit.EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
@@ -555,7 +584,7 @@
       <workItem from="1555944614755" duration="4270000" />
       <workItem from="1555949934172" duration="8735000" />
       <workItem from="1556027323932" duration="13028000" />
-      <workItem from="1556123720451" duration="9374000" />
+      <workItem from="1556123720451" duration="11541000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore file">
       <created>1554822988482</created>
@@ -568,12 +597,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EsBlogRepositoryTest_testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining - 2019.04.24 at 20h 28m 25s.xml">
-      <configuration name="EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EsBlogRepositoryTest_testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining - 2019.04.24 at 20h 30m 16s.xml">
-      <configuration name="EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EsBlogRepositoryTest_testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining - 2019.04.24 at 20h 36m 47s.xml">
       <configuration name="EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" configurationId="JUnit" />
     </history-entry>
@@ -598,9 +621,15 @@
     <history-entry file="EsBlogRepositoryTest_testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining - 2019.04.25 at 02h 14m 19s.xml">
       <configuration name="EsBlogRepositoryTest.testFindDistinctEsBlogByTitleContainingOrSummaryContainingOrContentContaining" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloControllerTest_testHello - 2019.04.28 at 14h 39m 39s.xml">
+      <configuration name="HelloControllerTest.testHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloControllerTest_testHello - 2019.04.28 at 14h 40m 15s.xml">
+      <configuration name="HelloControllerTest.testHello" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103116000" />
+    <option name="totallyTimeSpent" value="105283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,7 +644,7 @@
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22609401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22609401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -626,7 +655,7 @@
       <window_info anchor="bottom" id="Build" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837926" visible="true" weight="0.3591241" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837926" weight="0.3591241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,16 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringIoC/demo/src/main/java/top/jhana/demo/TvServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/util/SpringContentTypeUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -993,10 +1012,39 @@
     <entry file="file://$PROJECT_DIR$/SpringIoC/weather/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="160">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/test/java/top/jhana/weather/controller/HelloControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1006,31 +1054,12 @@
     <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/src/main/java/top/jhana/weather/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringIoC/weather/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
